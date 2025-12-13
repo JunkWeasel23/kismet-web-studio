@@ -36,7 +36,7 @@ h2, h3, h4, h5, h6, p {
 
 .navbar ul li {
     display: inline;
-    padding: 0 15px;
+    padding: 5px 15px;
 }
 
 .navbar ul {
@@ -75,7 +75,8 @@ main {
 .services,
 .portfolio,
 .about-contact,
-.pricing-payment {
+.pricing-payment,
+.tagline {
     background-color: white;
     margin-top: 0;
     margin-bottom: 10px;
@@ -155,7 +156,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     .logo p {
         display: none;
     }
