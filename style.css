@@ -72,10 +72,10 @@ main {
 .add-ons,
 .programs,
 .policies,
-.process,
+.services,
 .portfolio,
 .about-contact,
-.pricing-payment{
+.pricing-payment {
     background-color: white;
     margin-top: 0;
     margin-bottom: 10px;
@@ -121,11 +121,31 @@ main {
     margin-right: 20px;
 }
 
+.add-ons-box-6,
+.prices-box-6{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    row-gap: 20px;
+    margin-right: 20px;
+}
+
 .add-ons-box-7,
 .prices-box-7{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
+    align-items: center;
+    row-gap: 20px;
+    margin-right: 20px;
+}
+
+.add-ons-box-8,
+.prices-box-8{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
     align-items: center;
     row-gap: 20px;
     margin-right: 20px;
