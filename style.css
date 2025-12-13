@@ -71,7 +71,10 @@ main {
 .maintenance-plans,
 .add-ons,
 .programs,
-.policies {
+.policies,
+.process,
+.portfolio,
+.about-contact {
     background-color: white;
     margin-top: 0;
     margin-bottom: 10px;
