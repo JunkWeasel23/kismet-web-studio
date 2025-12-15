@@ -61,8 +61,30 @@ main ul li {
     color: white;
 }
 
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
 main {
     padding-top: 150px;
+}
+
+.me img {
+    width: 500px;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+    padding: 0;
+    border: 2px solid black;
+}
+
+.venmo a img {
+    width: 200px;
+    height: auto;
+    position: static;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .mission,
@@ -81,6 +103,17 @@ main {
     margin-top: 0;
     margin-bottom: 10px;
     padding: 10px 0;
+}
+
+.me {
+    display: flex;
+    width: 100%;
+}
+
+.venmo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 .add-ons-grid {
@@ -162,5 +195,8 @@ footer {
     }
     main {
         padding-top: 200px;
+    }
+    .me img {
+        width: 50%;
     }
 }
